@@ -1,0 +1,35 @@
+{
+  "name": "time-saver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/web/app.js",
+  "scripts": {
+    "dev": "NODE_TLS_REJECT_UNAUTHORIZED='0' nodemon --exec babel-node src/web/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Guilherme Andrade",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/core": "^3.1.2",
+    "awilix": "^4.2.6",
+    "awilix-express": "^3.0.0",
+    "awilix-router-core": "^1.6.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "js-yaml": "^3.14.0",
+    "mustache": "^4.0.1",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "eslint": "^7.7.0",
+    "nodemon": "^2.0.2"
+  }
+}

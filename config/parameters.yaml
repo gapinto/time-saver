@@ -1,0 +1,25 @@
+# Template
+
+prTemplate: {
+    name: repositoryName,
+    responsibleQA: "@cavalcanti"
+}
+
+gitHub: {
+    auth: "token-90wew0e9w0e9w0ew",
+    owner: "repositoryName",
+    repo: "repositoryName",
+    org: "repositoryName",
+    type: "public",
+    baseUrl: "https://github.com/api/v3"
+}
+
+git: {
+    token: "token-20920392039203934839",
+    gitUrl: "repository url",
+    repoFolderPath: "../release",
+}
+
+projectExtractor: {
+    migrationsFilterPath: "./backend/app/DoctrineMigrations/Version*"
+}
